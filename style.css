@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 196, 244);
+}
+
+.everything {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.frame {
+    background-color: rgb(255, 114, 211);
+    background-size: cover;
+    background-position: center;
+    width: 50vh;
+    height: 50vh;
+    border: solid rgb(255, 255, 255) 7.5px;
+    border-radius: 10px;
+    margin-top: 5vh;
+    transition: background-image 0.5s ease-in-out;
+}
+button {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(255, 114, 211);
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.buttons
+{
+    display: flex;
+    flex-direction: row;
+}
+button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
